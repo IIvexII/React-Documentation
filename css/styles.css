@@ -20,6 +20,7 @@ body {
     top: 0;
     left: 0;
   }
+
   #navbar ul {
     margin-top: 80px;
     height: calc(100vh - 80px);
@@ -37,7 +38,6 @@ body {
       color: #606060;
       text-decoration: none;
     }
-
 /* Main */
 #main-doc {
   padding: 30px 50px;
@@ -69,6 +69,7 @@ code, pre {
   padding-bottom: 5px;
   border-radius: 6px;
   margin: 20px 0;
+  overflow-x: auto;
 }
 .highlight {
   background-color: rgb(255, 255, 179);
@@ -121,6 +122,10 @@ p {
 }
 .note a:hover {
   text-decoration: underline;
+}
+
+.display-hidden {
+  display: hidden;
 }
 
 /* Margin */

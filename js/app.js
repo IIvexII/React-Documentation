@@ -26,3 +26,22 @@ listOfTags.forEach((tag) => {
     element.innerHTML = escapeHTML(element.innerHTML);
   });
 });
+
+/*
+ * This Functionality is only for the mobile and tablets.
+ * It has toggle button that, when clicked, will hide/show
+ * the menu.
+ */
+const menuBtn = document.querySelector('#mobile-menu-btn');
+
+// Default menu state is hidden
+let showMenu = false;
+menuBtn.addEventListener('click', () => {
+  if (showMenu) {
+    showMenu = false;
+    document.querySelector('#navbar ul').style = 'display: none;';
+  } else {
+    showMenu = true;
+    document.querySelector('#navbar ul').style = 'display: block;';
+  }
+});
