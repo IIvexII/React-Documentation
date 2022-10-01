@@ -1,5 +1,6 @@
-# Build a Technical Documentation Page - freeCodeCamp
-## React-Documentation - Not Real
+## Build a Technical Documentation Page - freeCodeCamp
+
+### React-Documentation - Not Real
 This should not be used as a reference to learn about react. This may contain some incorrect information and even the information without context. This is the project for my freeCodeCamp Course Certification. - Responsive Web Design.
 
 ### Be Honest
