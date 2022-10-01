@@ -51,7 +51,7 @@
     margin-top: 100px;
   }
   #mobile-menu-btn {
-    background-image: url('./img/menu.png');
+    background-image: url('../img/menu.png');
     background-repeat: no-repeat;
     background-size: contain;
     width: 20px;
