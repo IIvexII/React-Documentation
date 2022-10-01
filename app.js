@@ -18,7 +18,7 @@ const escapeHTML = function (element) {
 // -------------------------------------------
 // Currently I have only one but can have
 // more in future.
-const listOfTags = ['code', 'pre'];
+const listOfTags = ['pre'];
 
 listOfTags.forEach((tag) => {
   // Find and replace all the tags inside code element and escape them.

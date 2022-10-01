@@ -51,6 +51,14 @@ body {
   font-weight: 100;
   margin-bottom: 50px;
 }
+footer {
+  text-align: center;
+  margin-top: 5rem;
+  margin-bottom: -1rem;
+}
+footer a {
+  color: black;
+}
 /* Code */
 code, pre {
   font-size: 1rem;
@@ -106,6 +114,15 @@ p {
   background-color: #ebfde1;
   border-left: 10px solid #6eff41;
 }
+.note a {
+  color: black;
+  text-decoration: none;
+  background-color: #fdfccd;
+}
+.note a:hover {
+  text-decoration: underline;
+}
+
 /* Margin */
   /* Top-Bottom */
   .mtb-10 {
